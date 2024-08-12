@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #F5F5DC;
+    color:  #fafff6;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+
+header {
+    background-color: #8A9A5B;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    }
+
+section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */
+}
+
+footer {
+    background-color: #8A9A5B; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Raleway", sans-serif; 
+}
+
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+
+.info{
+    background-color:#8A9A5B;
+    padding: 2%;
+    color:#2e3a19;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+
+a:hover{
+    background-color: #8A9A5B;
+}
+
+
+/*links*/
+a{
+    color:#F5F5DC;
+    text-decoration: none;
+    padding:10px;
+    border-radius: 5px;
+}
+
+i{
+    color:#2e3a19;
+}
+
+p, h1, h2, h3 {
+    font-family: "Raleway", sans-serif;
+}
+
+.content{
+    border-radius: 20px 20px 20px 20px;
+    margin-left:20vh;
+    margin-right: 20vh;
+    background-color: #c2cba7;
+    -webkit-box-shadow: 0px 10px 36px -3px rgba(100, 100, 100, 0.75);
+    -moz-box-shadow: 0px 10px 36px -3px rgba(100, 100, 100, 0.75);
+    box-shadow: 0px 10px 36px -3px rgba(100, 100, 100, 0.75);
+    font-family: "Raleway", sans-serif;
+}
+
+.carousel-item img {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    height: 60vh; 
+    object-fit: cover; /* Cubre el área del contenedor sin deformar la imagen */
+   }
+
+.formulario{
+    background-color: #c2cba7;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 10px 36px -3px rgba(100, 100, 100, 0.75);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

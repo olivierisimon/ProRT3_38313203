@@ -1,0 +1,13 @@
+Enlace a la pagina local
+http://localhost/ProRT3_38313203/
+
+El nombre de la base de datos es:
+olivieri_simon
+
+Usuario Admin
+simon@correo.com
+contraseña:1234
+
+Usuario Cliente
+pedro@correo.com
+contraseña:Pedro
